@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Payment </title>
+    <style>
+        body{
+            background-image: url("pays.webp");
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            /*background-repeat: no-repeat;*/
+            color: rgb(3, 3, 3);
+        }
+        .form{
+            border: 2px solid rgb(10, 10, 10);
+            width: 200px;
+            text-align: center;
+           border-radius: 10px;
+           padding: 30px;
+           margin: 100px 100px;
+        }
+        .paynow:hover{background-color: red;}
+        
+    </style>
+</head>
+<body>
+    <h1 style="margin: 20px 20px ;"><b><i class="fa-solid fa-credit-card"></i>  Payment Now</b></h1>
+    <form action="" class="form">
+        <label for="name">First Name: <input type="text" value="First_name"></label><br><br>
+        <label for="name">Last Name: <input type="text" value="Last_name"></label><br><br>
+        <label for="Card_no">Card No. : <input type="number" value="card no."></label><br><br>
+        <label for="CVV">CVV : <input type="number" value="cvv"></label><br><br>
+        <label for="card_expire">Card Expiration: <input type="date" value="exp._date"></label><br><br><br><br>
+        <input type="submit" value="Pay Now" class="paynow" style="background-color: rgb(76, 0, 255); border-radius: 1ch; " > <input type="reset" value="Reset" style="background-color: rgb(0, 21, 255); border-radius: 1ch;">
+    </form>
+</body>
+</html>
